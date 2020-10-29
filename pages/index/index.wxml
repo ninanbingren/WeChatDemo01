@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="con">
+<view class="type">
+  <view class="{{currentTab == 0 ? 'select':'default'}}"
+  data-current="0" 
+  bindtap="swichNav"
+  >正在热映</view>
+  <view class="{{currentTab == 1 ? 'select':'default'}}"
+  data-current="1" 
+  bindtap="swichNav"
+  >即将热映</view>
+</view>
+<swiper current="{{currentTab}}" bindchange="bindChange">
+    <swiper-item>
+      <include src="hotMovie.wxml"></include>
+    </swiper-item>
+    <swiper-item>22222222222</swiper-item>
+  </swiper>
+</view>

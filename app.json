@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/movie/movie",
+    "pages/me/me"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#db0067",
+    "navigationBarTitleText": "movie",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh":false
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wxe5f52902cf4de896"
+  ],
+  "tabBar": {
+    "color":"#ffa07a",
+    "selectedColor":"#db0067",
+    "backgroundColor":"#fff",
+    "borderStyle":"black",
+    "position":"top",
+    "position":"bottom",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "movie",
+      "iconPath": "images/bar/movie-0.jpg",
+      "selectedIconPath": "images/bar/movie-1.jpg"
+    },{
+      "pagePath": "pages/me/me",
+      "text": "me",
+      "iconPath": "images/bar/me-0.jpg",
+      "selectedIconPath": "images/bar/me-1.jpg"
+    }]
+  },
+  "networkTimeout":{
+
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "debug": true
+}
