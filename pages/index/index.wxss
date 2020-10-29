@@ -15,9 +15,11 @@ swiper swiper-item image{
 .type view {
   flex-basis:40%;
   text-align: center;
+  height: 75rpx;
+  line-height: 75rpx;
   /* background-color: red; */
 }
 
 .select{
-  border-bottom: 1px solid red;
+  border-bottom: 2px solid red;
 }
